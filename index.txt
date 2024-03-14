@@ -1,0 +1,21 @@
+1-collection imgs => 6 (6 * 2)
+2-collection audios[
+    1-click,
+    2-two true,
+    3-two false,
+    4-win
+]
+======  finshed   ========
+
+
+2-ui design{
+    1-timer
+    2-mistakes
+    3-moves
+    3-grid[
+        rows:4
+        columns:3
+    ]
+}
+3- result (you win)
+

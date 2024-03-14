@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card Memory</title>
+</head>
+<body>
+    <div class='game-control'>
+        <h1>card memory game</h1>
+        <div class='description'>
+          <div class='username'>
+            Hello : <span></span>
+          </div>
+          <div class='timer'>
+            <span class="min"></span>:<span class="sec"></span>
+          </div>
+          <div class='tries'>
+            Tries : <span class="try">0</span>
+          </div>
+        </div>
+        </div>
+    <div class='game-container'>
+        <div class='card' data-information="helmet">
+          <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/helmet-1.png' alt='helmet'/>
+          </div>
+        </div>
+        <div class='card' data-information="helmet">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/helmet-1.png' alt='helmet'/>
+          </div>
+        </div>
+        <div class='card' data-information="potion">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/potion-1.png' alt='potion'/>
+          </div>
+        </div>
+        <div class='card' data-information="potion">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/potion-1.png' alt='potion'/>
+          </div>
+        </div>
+        <div class='card' data-information="ring">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/ring-1.png' alt='ring'/>
+          </div>
+        </div>
+        <div class='card' data-information="ring">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/ring-1.png' alt='ring'/>
+          </div>
+        </div>
+        <div class='card' data-information="scroll">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/scroll-1.png' alt='scroll'/>
+          </div>
+        </div>
+        <div class='card' data-information="scroll">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/scroll-1.png' alt='scroll'/>
+          </div>
+        </div>
+        <div class='card' data-information="shield">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/shield-1.png' alt='shield'/>
+          </div>
+        </div>
+        <div class='card' data-information="shield">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/shield-1.png' alt='shield'/>
+          </div>
+        </div>
+        <div class='card' data-information="sword">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/sword-1.png' alt='sword'/>
+          </div>
+        </div>
+        <div class='card' data-information="sword">
+        <div class='face front'>
+            <img src='./images/cover.png' alt='cover'/>
+          </div>
+          <div class='face back'>
+          <img src='./images/sword-1.png' alt='sword'/>
+          </div>
+        </div>
+    </div>
+    <div class='starting'>
+        <span>Start Game</span>
+    </div>
+    <div class="result">
+      <div class="container">
+          <div class="title">
+              <h1>congratulation <span class="name"></span></h1>
+          </div>
+          <div class="deg">
+              your Wrong-tries: <span>0</span>
+          </div>
+          <button class="replay" onclick="location.reload()">
+              <img src="./images/replay.png" alt="">
+          </button>
+      </div>
+  </div>
+    <script src="main.js"></script>
+</body>
+</html>
